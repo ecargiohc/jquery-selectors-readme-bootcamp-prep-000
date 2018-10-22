@@ -1,17 +1,17 @@
-$(document).ready(paragraphSelector() 
+function (paragraphSelector() 
 {
   var val = $('p').html();
   alert(val);
-})
-$(document).ready(lastImageSelector() {
+}
+function (lastImageSelector() {
   $('img:last');
-})
-$(document).ready(ninjaBabySelector() {
+}
+function(ninjaBabySelector() {
   $('#baby-ninja');
-})
-$(document).ready(divSelector() {
+}
+function (divSelector() {
   $('.pics');
-})
-$(document).ready(firstListItem() {
+}
+function (firstListItem() {
   $('div ul:first-child');
-})
+}
