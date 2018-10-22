@@ -11,5 +11,6 @@ function divSelector() {
   return $('.pics');
 }
 function firstListItem() {
+  debugger;
   return $('div ul:first-child');
 }
