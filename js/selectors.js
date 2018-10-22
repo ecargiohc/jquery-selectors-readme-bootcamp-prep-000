@@ -1,7 +1,6 @@
 function (paragraphSelector() 
 {
-  var val = $('p').html();
-  alert(val);
+$('p').html();
 }
 function (lastImageSelector() {
   $('img:last');
