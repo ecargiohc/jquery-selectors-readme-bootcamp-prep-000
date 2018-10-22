@@ -8,8 +8,8 @@ function ninjaBabySelector() {
   return $('#baby-ninja');
 }
 function divSelector() {
-  $('.pics');
+  return $('.pics');
 }
 function firstListItem() {
-  $('div ul:first-child');
+  return $('div ul:first-child');
 }
